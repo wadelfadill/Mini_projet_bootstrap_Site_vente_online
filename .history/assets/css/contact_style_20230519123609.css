@@ -1,0 +1,101 @@
+main{
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+.titre-contact{
+    background: rgb(2, 65, 77) !important;
+    color: white;
+    font-family: 'Montserrat' 'sans serif';
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.btn-dark{
+    background: rgb(2, 65, 77) !important;
+    color: white !important;
+    border: 1px solid rgb(1, 1, 51) !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.card label{
+    color: black;
+    font-family: 'Montserrat' 'sans serif';
+    font-size: 21px;
+}
+.card button{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: white;
+}
+.card input:focus, .card textarea:focus{
+    box-shadow: none!important;
+    border: 4px solid rgba(0, 0, 0, 0.32) !important;
+    /* border: 2px solid rgb(2, 65, 77) !important; */
+    
+}
+.card{
+    padding-top: 20px !important;
+    padding-bottom: 40px !important;
+}
+.card ul{
+    list-style: none;
+}
+.card-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card ul li{
+    padding-bottom: 30px;
+}
+.card ul li .title-coordonnees{
+    font-family: 'Montserrat' 'sans serif';
+    font-size: 35px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.card ul li .data-coordonnees{
+    font-family: 'Roboto' 'sans serif';
+    font-size: 31px;
+    font-weight: 500;
+    color: rgb(74, 74, 78);
+}
+@media screen and (max-width: 992px) {
+    .card ul li .title-coordonnees{
+    font-size: 25px;
+    }
+    .card ul li .data-coordonnees{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:768px) {
+    .card ul li .title-coordonnees{
+        font-size: 20px;
+        }
+        .card ul li .data-coordonnees{
+            font-size: 18px;
+        }
+}
+@media screen and (max-width:476px) {
+    .card-ul{
+        align-items: start;
+        justify-content: start;
+        margin: 0;
+    }
+    .card ul li .title-coordonnees{
+        font-size: 15px;
+    }
+    .card ul li .data-coordonnees{
+            font-size: 11px;
+    }
+    .card-ul ul{
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+}

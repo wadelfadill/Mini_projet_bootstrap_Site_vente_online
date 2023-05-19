@@ -1,0 +1,9 @@
+#main #banner{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("../images/banner-acceuil.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

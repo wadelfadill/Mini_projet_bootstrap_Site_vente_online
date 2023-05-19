@@ -1,0 +1,117 @@
+#main #banner{
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url("../images/banner-acceuil.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#main #banner h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: 'Monserrat' 'sans serif';
+    margin-bottom: 40px;
+
+}
+#main #banner h1 span{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Monserrat' 'sans serif';
+}
+#main #banner h1 span i.fa-cart-shopping{
+    display: block;
+    margin-top: 20px;
+    animation: panier 2s ease-in;
+}
+
+@keyframes panier{
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+#main #banner p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-bottom: 30px;
+}
+
+/*============ type de produits section ==========*/
+#type_produit{
+    background: #0692e360 !important;
+
+}
+svg{
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+.entete{
+    padding-top: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+#type_produit h1{
+    font-family: 'Monserrat' 'sans serif';
+    font-style: 45px;
+    font-weight: 600;
+    color: rgb(1, 1, 26);
+    margin-bottom: 30px;
+}
+#type_produit span{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgb(1, 1, 26);
+}
+#type_produit .card .card-img-top{
+    height: 300px !important;
+}
+#type_produit .card .card-body .card-title{
+    font-family: 'Montserrat' 'sans serif';
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(1, 1, 26);
+
+}
+
+/*========= les plus achetes section ============ */
+#plus_achetes{
+    background: rgb(231, 231, 231);
+}
+#plus_achetes h1{
+    font-family: 'Monserrat' 'sans serif';
+    font-style: 45px;
+    font-weight: 600;
+    color: rgb(1, 1, 26);
+    margin-bottom: 30px;
+}
+#plus_achetes span{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgb(1, 1, 26);
+}
+#plus_achetes .carousel-inner{
+    height: 600px !important;
+}
+#plus_achetes .carousel-inner .carousel-item{
+    height: 100% !important;
+}
+#plus_achetes .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,38 @@
+main{
+    padding-top: 100px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*======== Shirts section =========*/
+#shirts h1{
+    padding-top: 30px;
+    font-family: 'Monserrat' 'sans serif';
+    font-style: 45px;
+    font-weight: 600;
+    color: rgb(1, 1, 26);
+    margin-bottom: 30px;
+}
+#shirts span{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: rgb(1, 1, 26);
+}
+.entete{
+    background: beige;
+}
+#shirts h2{
+    padding-top: 20px;
+    font-family: 'Monserrat' 'sans serif';
+    font-style: 35px;
+    font-weight: 500;
+    color: rgb(1, 1, 26);
+    margin-bottom: 20px;
+}
+.categorie_title{
+    background: blanchedalmond;
+}

@@ -1,0 +1,23 @@
+/* ======= General ==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ======= header section ========*/
+nav img{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+nav ul li a{
+    font-family: 'Monserrat' 'sans serif';
+    font-size: 23px;
+    font-weight: 400;
+}

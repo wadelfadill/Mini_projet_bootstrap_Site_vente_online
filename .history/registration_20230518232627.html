@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--======== Website icone =======-->
+    <link rel="shortcut icon" href="assets/images/logo/cart-shopping-solid.svg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=========== Title of Website ============-->
+    <title>KAAY-SHOP</title>
+    
+    <!--======== Bootstrap Links ===========-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--========= CSS links ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/registration_style.css">
+    <!--========= Google Fonts Links =========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <!--========== Google Font-Awesome Script  ==========-->
+    <script src="https://kit.fontawesome.com/8f130c8a35.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- ========== Start Header Section ========== -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#header"><img src="assets/images/logo/kAAY SHOP.png" alt="" class="img-fluid website_logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="list_product.html">liste des produits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html#register-toggle">Inscrivez-vous</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html#login-toggle">Connectez-vous</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="recherche produit" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">recherche</button>
+                </form>
+                <div class="market-icone ms-2">
+                    <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ========== End Header Section ========== -->
+    <!--==================================================-->
+   <!-- ========== Start Main ========== -->
+   <main id="main">
+  <div class="container">
+    <div class="toggle-buttons">
+      <button id="login-toggle" class="active">Se Connecter</button>
+      <button id="register-toggle">S'inscrire</button>
+    </div>
+    <div id="login-form" class="form-container">
+      <h2>Se Connecter</h2>
+      <form id="login" class="d-flex flex-column gap-4 justify-content-center align-items-center">
+        <input type="text" name="username" placeholder="Nom d'utilisteur" required>
+        <input type="password" name="password" placeholder="Mot de Passe" required>
+        <input type="submit" value="se connecter">
+      </form>
+    </div>
+    <div id="register-form" class="form-container">
+      <h2>S'inscrire</h2>
+      <form id="register" class="d-flex flex-column gap-4 justify-content-center align-items-center">
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+        <input type="password" name="password" placeholder="Mot de Passe" required>
+        <input type="email" name="email" placeholder="Adresse Mail" required>
+        <input type="submit" value="s'inscrire">
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/css/script.js"></script>
+</body>
+</html>
+
+   </main>
+   <!-- ========== End Main ========== -->
+   <!--========================================================-->
+   <!-- ========== Start Footer Section ========== -->
+   <footer id="footer" class="bg-dark navbar-dark">
+    <div class="container-fluid pt-4 pb-4">
+        <div class="row gap-5 gap-md-0">
+            <div class="col-md-4 text-center text-md-start">
+                <div class="logo">
+                    <img src="assets/images/logo/logo.jpg" alt="" class="img-fluid website_logo">
+                </div>
+            </div>
+            <div class="col-md-4 text-center my-auto">
+                <div class="copyright">
+                    copyright c EL-Fadill-2023
+                </div>
+            </div>
+            <div class="col-md-4 text-center text-md-end my-auto">
+                <div class="icones d-flex flex-row align-items-center justify-content-center justify-content-md-end gap-5 gap-md-0">
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+   </footer>
+   <!-- ========== End Footer Section ========== -->
+   <!--=========================================================-->
+    <!--======= Bootstrap Js Script ==========-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

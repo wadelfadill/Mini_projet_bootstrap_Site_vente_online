@@ -1,0 +1,10 @@
+main{
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+.titre-contact{
+    background: rgb(157, 230, 243);
+    color: black;
+    font-family: 'Montserrat' 'sans serif';
+    font-size: 30px;
+}

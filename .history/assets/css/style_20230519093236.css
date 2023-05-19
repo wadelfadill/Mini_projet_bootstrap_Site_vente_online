@@ -1,0 +1,51 @@
+/* ======= General ==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ======= header section ========*/
+.website_logo{
+    height: 50px;
+    border-radius: 5px;
+}
+nav ul li a{
+    font-family: 'Monserrat' 'sans serif';
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke !important;
+}
+@media screen and (max-width:768px) {
+    .market-icone{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width:1046px) and (min-width:768px) {
+nav ul li a{
+    font-size: 16px;
+    /* font-weight: 500; */
+}
+    
+}
+main{
+    /* height: 900px; */
+}
+#footer{
+    font-size: 23px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+#footer i{
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 20px;
+    cursor: pointer;
+}
